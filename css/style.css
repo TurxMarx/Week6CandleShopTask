@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@200..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    line-height: 1.6;
+    background-color: #f7f3ef;
+    color: #333;
+}
+
+/* Intro Image Section */
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/image1.webp');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text .btn {
+    background-color: #98b7e2a9;
+    border: 1px solid #98b7e20e;
+    color: #eff0f1;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__text .btn:hover {
+    transform: scale(1.2);
+}
+
+/* Intro Text Section */
+.intro-text {
+    color: black;
+    padding: 4rem;
+    text-align: center;
+    background-color: #704403; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: -5rem;
+    clip-path: polygon(51% 8%, 100% 0, 100% 43%, 100% 91%, 100% 100%, 52% 100%, 0 100%, 0% 43%, 0 0);
+}
+
+
+.intro-text h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+/* Packaging Image Section */
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../img/image3.webp');
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text .btn {
+    background-color: #62471f;
+    border: 1px solid #98b7e20e;
+    color: #c2cbd2;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.packaging-image__text .btn:hover {
+    transform: scale(1.2);
+}
+
+/* Packaging Text Section */
+.packaging-text {
+    padding: 4rem;
+    text-align: center;
+    background-color: #704403; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.packaging-text h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    color: black; 
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.packaging-text p {
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 1rem;
+    line-height: 1.8;
+}
+
+/* Tutorials Image Section */
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/image2.webp');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.tutorials-image__text .btn {
+    background-color: #71ab92a9;
+    border: 1px solid #98b7e20e;
+    color: #d6e0e6;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.tutorials-image__text .btn:hover {
+    transform: scale(1.2);
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #4c7555;
+    color: rgb(161, 161, 147);
+    font-size: 2rem;
+    height: 200px;
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: rgb(170, 170, 143);
+    text-decoration: none;
+}
+
+.footer ul li:hover,.footer ul li a:hover {
+     color: rgb(183, 103, 103);
+     transform: scale(1.2);
+}
